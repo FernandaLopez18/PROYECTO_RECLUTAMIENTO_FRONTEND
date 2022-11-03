@@ -12,7 +12,8 @@
 }
 
 #titulo{
-    font-size: 30px;
+    font-size: 20px;
+    left: 100px;
 
 }
 
@@ -67,8 +68,8 @@
 #info{
     position: relative;
     color: #4aa0d5;
-    right: 220px;
-    bottom: 180px;
+    right: 180px;
+    bottom: 300px;
 }
 
 #imagen {
@@ -86,3 +87,4 @@
     width: 550px;
     height: 350px;
 }
+

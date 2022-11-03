@@ -52,6 +52,7 @@ body {
     font-size: 15px;
 }
 
+
 .logo {
     margin-left: 15px;    
 }
@@ -73,6 +74,7 @@ body {
 
 .navbar a:hover {
     background: #1d9e8b;
+    color: #fff;
 }
 
 .header {
@@ -84,7 +86,7 @@ body {
 
 .header {
     height: 80vh !important;
-    background: url(imagenes/equipo.jpg) no-repeat center;
+    background: url(../imagenes/equipo.jpg) no-repeat center;
     background-size: cover;
 }
 
