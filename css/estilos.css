@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+.content{
+    height: 300px;
+}
+
+.menu{
+    width: 100%;
+    height: auto;
+}
+#footer{
+    width: 101%;
+    height:180px;
+    position:relative;
+    display:block;
+}
+#serv{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    font-style:normal;
+    font-size: 30px;
+}
+#empresa{
+    width: 45%;
+    float: left;
+    margin-left: 3%;
+}
+#empresa h1, p{
+    text-align: center;
+}
+#aspirante{
+    width: 45%;
+    float: right;
+    margin-right: 3%;
+}
+#aspirante h1, p{
+    text-align: center;
+}
+#imgEmp{
+    float: right;
+    width: 45%;
+    margin-top: 2%;
+    margin-right: 4%;
+}
+#imgAsp{
+    float: left;
+    width: 45%;
+    margin-left: 4%;
+}
+h2{
+    font-size: 22px;
+}
+p{
+    font-size: 18px;
+}
+
+#bolEmp{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#ejemplo{
+    background-color: #628081;
+    height: 610px;
+    width: 90%;
+    margin-left: 5%;
+}
+#imgA, #imgb{
+    float: left;
+    margin-left: 50px;
+}
+#caja{
+    background-color: white;
+    margin-left: 11%;
+    margin-right: 11%;
+    height: 170px;
+}
+.contentB{
+    height: 790px;
+}
