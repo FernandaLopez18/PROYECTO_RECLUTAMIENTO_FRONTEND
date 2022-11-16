@@ -12,6 +12,9 @@ body {
 .content{
     height: 300px;
 }
+#up{
+    background-image: '../imagenes/selec.jpg'
+}
 
 .menu{
     width: 100%;
