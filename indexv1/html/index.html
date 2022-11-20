@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="../css/style.css">  
+    <script src="https://kit.fontawesome.com/fb31fd06f9.js" crossorigin="anonymous"></script>    
+    <script src="../js/index.js"></script>
     <link href="../imagenes/IToLogo.png" rel="shortcut icon" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/fb31fd06f9.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <title>Inicio </title>
+    <title>Inicio</title>
 </head>
-<body>
-   <iframe src="menu.html" width="100%" height="70px" scrolling="no"></iframe>
-   <script>
-    alert("Cuando accedes a Outsourcing desde un ordenador, teléfono móvil u otro dispositivo, podemos obtener información de dicho dispositivo sobre tu tipo de navegador, ubicación y dirección IP, así como las páginas que visitas. También utilizamos las cookies para confirmar que estás conectado a Outsourcing, y para saber cuándo estás interactuando con aplicaciones y sitios web de la plataforma Outsourcing. Cuando te conectes a un sitio web o una aplicación de la plataforma, nos suministrarán información, incluida la información acerca de las acciones que realizas")
-   </script>
+<body> 
+   <iframe src="menu.html" width="100%" height="70px" scrolling="no" class="fixed-top"></iframe>
+   <style>
+    .toast-warning {
+  background-color: #009912;  
+}
+   </style> 
     <header>
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
             <div class="carousel-indicators">
@@ -29,7 +33,7 @@
                 <img src="../imagenes/austin-distel-21GWwco-JBQ-unsplash.jpg" class="d-block w-100" alt="..." style="height:600px ;">
                 <div class="carousel-caption d-none d-md-block">
                   <h5 style="font-size:70px;">Encuetra trabajo</h5>
-                  <p style="font-size:25px;">Contamos con un excelente sitio para que encuentres el trabajo que se adapte a tus necesidades</p>
+                  <p style="font-size:25px;">Contamos con un excelente sitio para que encuentres el trabajo que se adapte a tus necesidades</p>                  
                 </div>
               </div>
               <div class="carousel-item">
@@ -42,7 +46,7 @@
               <div class="carousel-item">
                 <img src="../imagenes/austin-distel-TluMvvrZ57g-unsplash.jpg" class="d-block w-100" alt="..." style="height:600px ;">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 style="font-size:70px;">Modulo de entrevistas</h5>
+                  <h5 style="font-size:70px;">Módulo de entrevistas</h5>
                   <p style="font-size:25px;">Al concluir mira tu expendiente de aspirante, los datos de la convocatoria, estatus y más.</p>
                 </div>
               </div>
@@ -56,7 +60,8 @@
               <span class="visually-hidden">Siguiente</span>
             </button>
           </div>      
-    </header>
+    </header>    
+</div>
     <section class="content sau">
       <br><br><br><br><br><br><br><br>
       <h2 class="title">Servicios</h2>
@@ -64,9 +69,7 @@
         desarrollada internamente por una empresa y es transferida a otra firma. Es decir, 
         simplificando el concepto al máximo, 
         es la delegación de una actividad o un proceso de negocio de una empresa a otra.</p>
-      
       <div class="box-container">
-
           <div class="box">
             <i class="fa-solid fa-check"></i>
               <h3>Convocatorias</h3>
@@ -82,20 +85,16 @@
               <h3>Exámenes</h3>
               <p>Realiza tu exámen psicométrico</p>
           </div>
-
       </div>
-
   </section>
 <br>
-  <section class="content about">
-<br><br><br><br><br>
+    <section class="content about">
+  <br><br><br><br><br>
       <h2 class="title">Outsourcing</h2>
       <p class="texto">Un contrato de Outsourcing sirve para que determinadas áreas de la empresa recaigan sobre
          una empresa externa.No se externalizan los empleados, sino los servicios completos. .
       </p>      
-
   </section>
-
   <section class="content price">   
       <article class="contain">
           <h2 class="title">Aurum Corp</h2>
@@ -103,9 +102,12 @@
             la mejor experiencia
           </p>
       </article>
-  </section>        
-      
+  </section>              
 <iframe src="footer.html" width="100%" height="450px" scrolling="no"></iframe>
-<!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="../js/index.js"></script>
 </body>
 </html>

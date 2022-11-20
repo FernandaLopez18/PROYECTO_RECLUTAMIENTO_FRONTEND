@@ -96,3 +96,6 @@ p {
     background: #171717;
     padding-bottom: 0;
 }
+.toast-info {
+    background-color: #3276b1;
+  }
