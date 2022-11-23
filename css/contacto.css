@@ -1,341 +1,341 @@
 :root{
-    --form-height:650px;
-    --form-width: 1100px;
-    /*  Sea Green */
-    --left-color: #9fdeaf;
-    /*  Light Blue  */
-    --right-color: #178491;
-  }
-  
-  body, html{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    font-family: 'Helvetica Neue', sans-serif;
-    letter-spacing: 0.5px;
-    background-image: url("https://www.bartolomeconsultores.com/wp-content/uploads/2015/10/fondo-formulario-1200x578.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }  
-  .container{
-    background-color:rgba(75, 76, 76, 0.7);
-    opacity: 2;
-    width: var(--form-width);
-    height: 650px ;
-    position: relative;
-    margin: auto;
-    box-shadow: 20px 10px 60px rgba(22,20,19,0.4);
-    border-radius: 10px;
-    margin-top: 25px;
-    margin-block-end: 35px;
-  }
-  /* 
-  ----------------------
-        Overlay
-  ----------------------
-  */
-  .overlay{
-    width: 50%; 
-    height: 100%;
-    margin-left: 35px;
-    margin-top: 40px;
-    position: absolute;
-    z-index: 100;
-    border-radius: 10px;
-    color: rgb(8, 6, 6);
-    font-family: 'Helvetica Neue', sans-serif;
-    
-  }
-  .switch-button, .control-button{
-    cursor: pointer;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 140px;
-    height: 40px;
-    font-size: 14px;
-    text-transform: uppercase;
-    background: none;
-    border-radius: 20px;
-    color: white;
-  }
-  
-  .switch-button{
-    border: 2px solid;
-  }
-  
-  .control-button{
-    border: none;
-    margin-top: 15px;
-  }
-  
-  .switch-button:focus, .control-button:focus{
-    outline:none;
-  }
-  
-  .control-button.up{
-    background-color:#0b0d0e ;
-  }
-  
-  .control-button.in{
-    background-color: var(--right-color);
-  }
-  
-  /* 
-  --------------------------
-        Forms
-  --------------------------
-  */
-  .form{
-    width: 100%; 
-    height: 100%;
-    position: absolute;
-    border-radius: 10px;
-  }
-  .form .sign-in, .form .sign-up{
-    --padding: 50px;
-    position:absolute;
-      /*  Width is 100% - 385px - padding  */
-    width: calc(var(--form-width) - 385px - var(--padding) * 2);
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px var(--padding);
-    text-align: center;
-  }
-  
-  /* Sign in is initially not displayed */
-  .form .sign-in{
-    display: none;
-  }
-  
-  .form .sign-in{
-    left:100;
-  }
-  
-  .form .sign-up{
-    right: -80;
-  }
-  
-  .form-right-slide-in{
-    animation: form-slide-in-right 1s;
-  }
-  
-  .form-right-slide-out{
-    animation: form-slide-out-right 1s;
-  }
-  
-  .form-left-slide-in{
-    animation: form-slide-in-left 1s;
-  }
-  
-  .form-left-slide-out{
-    animation: form-slide-out-left 1s;
-  }
-  
-  .form .sign-in h1{
-    color: var(--right-color);
-    margin: 0;
-  }
-  
-  .form .sign-up h1{
-    color:#fafafa;
-    margin: 0;
-  }
-  
-  .social-media-buttons{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 15px;
-  }
-  
-  .social-media-buttons .icon{
-    width: 40px;
-    height: 40px;
-    border: 1px solid #dadada;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 7px;
-  }
-  
-  .small{
-    font-size: 13px;
-    color: rgb(253, 252, 252);
-    font-weight: 200;
-    margin: 5px;
-  }
-  
-  .social-media-buttons .icon svg{
-    width: 25px;
-    height: 25px;
-  }
-  #sign-in-form ,#mensaje {
-    margin: 12px;
-    font-size: 14px;
-    padding: 30px;
-    width: 460px;
-    font-weight: 300;
-    border: none;
-    background-color: #e4e4e494;
-    font-family: 'Helvetica Neue', sans-serif;
-    letter-spacing: 1.5px;
-    padding-left: 20px;
+  --form-height:650px;
+  --form-width: 1100px;
+  /*  Sea Green */
+  --left-color: #9fdeaf;
+  /*  Light Blue  */
+  --right-color: #178491;
+}
 
-  }
-  #sign-in-form input, #sign-up-form input{
-    margin: 12px;
-    font-size: 14px;
-    padding: 15px;
-    width: 460px;
-    font-weight: 300;
-    border: none;
-    background-color: #e4e4e494;
-    font-family: 'Helvetica Neue', sans-serif;
-    letter-spacing: 1.5px;
-    padding-left: 20px;
-  }
+body, html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.5px;
+  background-image: url("https://www.bartolomeconsultores.com/wp-content/uploads/2015/10/fondo-formulario-1200x578.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}  
+.container{
+  background-color:rgba(231, 237, 237, 0.7);
+  opacity: 2;
+  width: var(--form-width);
+  height: 650px ;
+  position: relative;
+  margin: auto;
+  box-shadow: 20px 10px 60px rgba(22,20,19,0.4);
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-block-end: 35px;
+}
+/* 
+----------------------
+      Overlay
+----------------------
+*/
+.overlay{
+  width: 50%; 
+  height: 100%;
+  margin-left: 35px;
+  margin-top: 40px;
+  position: absolute;
+  z-index: 100;
+  border-radius: 10px;
+  color: rgb(8, 6, 6);
+  font-family: 'Helvetica Neue', sans-serif;
   
-  #sign-in-form input::placeholder{
-    letter-spacing: 1px;
-  }
-  /**/
-  .head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80px;
-    background: #fcfdfd;
-    /*position: fixed;*/
-    width: 100%;
-    z-index: 100;
+}
+.switch-button, .control-button{
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: none;
+  border-radius: 20px;
+  color: white;
+}
+
+.switch-button{
+  border: 2px solid;
+}
+
+.control-button{
+  border: none;
+  margin-top: 15px;
+}
+
+.switch-button:focus, .control-button:focus{
+  outline:none;
+}
+
+.control-button.up{
+  background-color:#0b0d0e ;
+}
+
+.control-button.in{
+  background-color: var(--right-color);
+}
+
+/* 
+--------------------------
+      Forms
+--------------------------
+*/
+.form{
+  width: 100%; 
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+}
+.form .sign-in, .form .sign-up{
+  --padding: 50px;
+  position:absolute;
+    /*  Width is 100% - 385px - padding  */
+  width: calc(var(--form-width) - 385px - var(--padding) * 2);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px var(--padding);
+  text-align: center;
+}
+
+/* Sign in is initially not displayed */
+.form .sign-in{
+  display: none;
+}
+
+.form .sign-in{
+  left:100;
+}
+
+.form .sign-up{
+  right: -80;
+}
+
+.form-right-slide-in{
+  animation: form-slide-in-right 1s;
+}
+
+.form-right-slide-out{
+  animation: form-slide-out-right 1s;
+}
+
+.form-left-slide-in{
+  animation: form-slide-in-left 1s;
+}
+
+.form-left-slide-out{
+  animation: form-slide-out-left 1s;
+}
+
+.form .sign-in h1{
+  color: var(--right-color);
+  margin: 0;
+}
+
+.form .sign-up h1{
+  color:#fafafa;
+  margin: 0;
+}
+
+.social-media-buttons{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 15px;
+}
+
+.social-media-buttons .icon{
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dadada;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 7px;
+}
+
+.small{
+  font-size: 13px;
+  color: rgb(253, 252, 252);
+  font-weight: 200;
+  margin: 5px;
+}
+
+.social-media-buttons .icon svg{
+  width: 25px;
+  height: 25px;
+}
+#sign-in-form ,#mensaje {
+  margin: 12px;
+  font-size: 14px;
+  padding: 30px;
+  width: 460px;
+  font-weight: 300;
+  border: none;
+  background-color: #e4e4e494;
+  font-family: 'Helvetica Neue', sans-serif;
+  letter-spacing: 1.5px;
+  padding-left: 20px;
+
+}
+#sign-in-form input, #sign-up-form input{
+  margin: 12px;
+  font-size: 14px;
+  padding: 15px;
+  width: 460px;
+  font-weight: 300;
+  border: none;
+  background-color: #e4e4e494;
+  font-family: 'Helvetica Neue', sans-serif;
+  letter-spacing: 1.5px;
+  padding-left: 20px;
+}
+
+#sign-in-form input::placeholder{
+  letter-spacing: 1px;
+}
+/**/
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background: #fcfdfd;
+  /*position: fixed;*/
+  width: 100%;
+  z-index: 100;
 }
 .navbar {
-    display: flex;
-    margin-right: 80px;
+  display: flex;
+  margin-right: 80px;
 }
 .pie-pagina{
-    width: 100%;
-    background-color: #1d9e8b;
+  width: 100%;
+  background-color: #1d9e8b;
 }
 .pie-pagina .grupo-2 .red-social a{
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    color: #fff;
-    margin-right: 10px;
-    background-color: #1d9e8b;
-    text-align: center;
-    transition: all 300ms ease;
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #1d9e8b;
+  text-align: center;
+  transition: all 300ms ease;
 }
 .pie-pagina .grupo-2{
-    background-color: #1d9e8b;
-    padding: 15px 10px;
-    text-align: center;
-    color: #fff;
+  background-color: #1d9e8b;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
 }
 .pie-pagina .grupo-2 small{
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .logo {
-    margin-left: 15px;    
+  margin-left: 15px;    
 }
 
 .logo a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    font-size: 15px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 15px;
 }
 .navbar a {
-    display: block;
-    padding: 20px 20px;
-    color: rgb(14, 11, 11);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 15px;
+  display: block;
+  padding: 20px 20px;
+  color: rgb(14, 11, 11);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .navbar a:hover {
-    background: #1d9e8b;
+  background: #1d9e8b;
 }
 
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
 .header {
-    height: 80vh !important;
-    background: url(imagenes/equipo.jpg) no-repeat center;
-    background-size: cover;
+  height: 80vh !important;
+  background: url(imagenes/equipo.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .title {
-    margin-bottom: 40px;
-    font-size: 60px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #fff;
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 p {
-    margin-bottom: 40px;
-    font-size: 18px;
-    color: #fff;
-    padding: 0 100px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 100px;
 }
 
 .btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
-    border-radius: 10px;
-    color: #1d9e8b;
-    text-decoration: none;
-    background: #1d9e8b;
-    
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: #1d9e8b;
+  text-decoration: none;
+  background: #1d9e8b;
+  
 }
 .navbar .btn-1 {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 10px;
-    border-radius: 15px;
-    color: #f5faf9;
-    background: #4aa0d5;
-    height: 25px;
-    
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 10px;
+  border-radius: 15px;
+  color: #f5faf9;
+  background: #4aa0d5;
+  height: 25px;
+  
 }
 
 .btn:hover {
-    background: #f0ecec;
-    
+  background: #f0ecec;
+  
 }
 
 .btn-home {
-    display: flex;
+  display: flex;
 }
 
 .btn-home a {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 
 .content {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
