@@ -1,0 +1,164 @@
+body,html{
+  overflow-x:hidden;
+}
+body {
+font-family: 'Merriweather', serif;
+  overflow-x: hidden !important;
+}
+
+/*--------------------*/
+/* HOME WHY US SECTION */
+/*--------------------*/
+
+.title_area{
+  float: left;  
+  display: inline;  
+  width: 100%; 
+  text-align: center;
+  margin-bottom: 40px;  
+}
+.title_area span{
+  display: inline-block;  
+  text-align: center; 
+  height: 5px;    
+  width: 50px;
+}
+
+.ubi  {
+  color: rgb(11, 10, 10);
+  font-size: 15px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  margin-left: -14em;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+/*--------------------*/
+/* COURSE ARCHIVE PAGE */
+/*--------------------*/
+
+#imgBanner {
+  background-image: url("img/events-slider2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 300px;
+  margin-top: 30px;
+  padding: 118px 0;
+  text-align: center;
+  width: 100%;
+}
+
+#imgBanner2 {
+  background-image: url("img/cont.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 300px;
+  margin-top: 30px;
+  padding: 118px 0;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+  
+}
+#imgBanner2 h2 {
+  color: rgb(240, 235, 235);
+  font-size: 45px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  margin-left: 2em;
+  text-transform: uppercase;
+  margin-top: -20px;
+}
+#imgBanner2 h1 {
+  color: rgb(240, 235, 235);
+  font-size: 25px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  margin-left: 3em;
+  text-transform: uppercase;
+
+}
+#imgBanner h2 {
+  color: rgb(240, 235, 235);
+  font-size: 72px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*--------------------*/
+/* CONTACT */
+/*--------------------*/
+
+#contact{
+  float: left;
+  display: inline;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+.contact_form{
+  float: left;
+  display: inline;
+  width: 80%;
+}
+ .wp-form-control {
+  border: 1px solid #070404;
+  border-radius: 5px;
+  display: inline;
+  float: left;
+  margin-bottom: 20px;
+  padding: 10px 12px;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;  
+  width: 100%;  
+}
+.wpcf7-text{
+  height: 45px;
+}
+.wpcf7-email{
+  height: 45px;
+}
+.wpcf7-textarea {
+  height: 200px;
+  padding: 15px;
+}
+.wpcf7-submit {
+  background-color: #516592 ;
+  color: white;
+  margin-left: 17em;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-transform: uppercase;
+   -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s; 
+}
+.contact_address{
+  float: left;
+  margin-left: -40%;
+  display: inline;
+  width: 500%;
+}
+
+.address_group{
+  float: left;
+  display: inline;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-left: 12%;
+  margin-right: 10%;
+  margin-top: 1%;
+}
